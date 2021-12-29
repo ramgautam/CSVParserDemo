@@ -1,12 +1,13 @@
 package com.coda.test.util;
 
-import com.sun.tools.javac.util.Assert;
+
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PatternMatchingTest {
+class   PatternMatchingTest {
 
     private final static PatternMatching patternMatching = ParserUtil.getPatternMatchingInstance();
 
@@ -14,7 +15,7 @@ class PatternMatchingTest {
     void testMatchEmailWithCorrectEmailAddress() {
 
         patternMatching.matchEmail("osephine_darakjy@darakjy.org");
-        Assert.check(patternMatching.matchEmail("osephine_darakjy@darakjy.org"));
+        Assertions.assertTrue(patternMatching.matchEmail("osephine_darakjy@darakjy.org"));
 
     }
 
