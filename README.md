@@ -27,11 +27,11 @@ They are:
 3. writeOutputOnFileSequentially - It represents the where writing parsed content either sequentially or parallelly into the file - **default** value is true
 4. outputLocation- It represents the output location where actual output will be created. - **default** is '.'(current context)
 
-Sample content of csv file with header:
+**Sample content of csv file with header:**
 first_name, last_name,company_name,address,city,country,state,zip,phone1,phone2,email,web
 "Josephine","Darakjy","Jeffrey A Chanay Esq","4 B Blue Ridge Blvd","Brighton","Livingston","MI","48116","810-292-9388","810-374-9840","osephine_darakjy@darakjy.org","http://www.chanayjeffreyaesq.com"
 
-Sample generated XML file with data type of each column :
+**Sample generated XML file with data type of each column :**
 <?xml version="1.0" encoding="UTF-8"?>
 <user_infos>
 <user_info>
