@@ -31,6 +31,70 @@ They are:
 first_name, last_name,company_name,address,city,country,state,zip,phone1,phone2,email,web
 "Josephine","Darakjy","Jeffrey A Chanay Esq","4 B Blue Ridge Blvd","Brighton","Livingston","MI","48116","810-292-9388","810-374-9840","osephine_darakjy@darakjy.org","http://www.chanayjeffreyaesq.com"
 
+**Sample generated JSON file with data type of each column**
+[
+  {
+    "data_type": "String",
+    "value": "Josephine",
+    "field_name": "firstName"
+  },
+  {
+    "data_type": "String",
+    "value": "Darakjy",
+    "field_name": "lastName"
+  },
+  {
+    "data_type": "String",
+    "value": "Jeffrey A Chanay Esq",
+    "field_name": "companyName"
+  },
+  {
+    "data_type": "String",
+    "value": "4 B Blue Ridge Blvd",
+    "field_name": "address"
+  },
+  {
+    "data_type": "String",
+    "value": "Brighton",
+    "field_name": "city"
+  },
+  {
+    "data_type": "String",
+    "value": "Livingston",
+    "field_name": "county"
+  },
+  {
+    "data_type": "String",
+    "value": "MI",
+    "field_name": "state"
+  },
+  {
+    "data_type": "String",
+    "value": "48116",
+    "field_name": "zip"
+  },
+  {
+    "data_type": "PhoneNumber",
+    "value": "810-292-9388",
+    "field_name": "phone1"
+  },
+  {
+    "data_type": "PhoneNumber",
+    "value": "810-374-9840",
+    "field_name": "phone2"
+  },
+  {
+    "data_type": "Email",
+    "value": "osephine_darakjy@darakjy.org",
+    "field_name": "email"
+  },
+  {
+    "data_type": "String",
+    "value": "http://www.chanayjeffreyaesq.com",
+    "field_name": "web"
+  }
+]
+
 **Sample generated XML file with data type of each column :**
 <?xml version="1.0" encoding="UTF-8"?>
 <user_infos>
