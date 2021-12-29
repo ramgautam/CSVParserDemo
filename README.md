@@ -32,6 +32,7 @@ first_name, last_name,company_name,address,city,country,state,zip,phone1,phone2,
 "Josephine","Darakjy","Jeffrey A Chanay Esq","4 B Blue Ridge Blvd","Brighton","Livingston","MI","48116","810-292-9388","810-374-9840","osephine_darakjy@darakjy.org","http://www.chanayjeffreyaesq.com"
 
 **Sample generated JSON file with data type of each column**
+
 [
   {
     "data_type": "String",
